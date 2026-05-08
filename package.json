@@ -1,18 +1,24 @@
 {
   "name": "devtinder",
   "version": "1.0.0",
-  "description": "devTinder",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
   },
-  "keywords": [
-    "node",
-    "js"
-  ],
-  "author": "Amar",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amarcharm/devTinder.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amarcharm/devTinder/issues"
+  },
+  "homepage": "https://github.com/amarcharm/devTinder#readme",
+  "description": "",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.2.1"
   }
 }
